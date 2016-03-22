@@ -119,17 +119,71 @@ What happens here? Well, in this case, we use a special function called `range()
 7. **Something involving array index values???**
 
 ## Conditional statements
-5. Making choices
-	1. Conditional statements - can change behaviour based on certain conditions `num = 37` `if num > 100:` `    print('greater')` `else:` `    print('not greater')` `print('done')` Note again that code within the given condition is indented and the statement ends with a `:` On line 2 the code check the value of `num` and proceeds differently based on the comparison that is made; Figure of this statement
-	2. `if`, `else` is common, but `else` is not required `num = 53` `print('before conditional...')` `if num > 100:` `    print('53 is greater than 100')` `print('...after conditional')`
-	3. Can also have multiple conditions using `elif`, which is short for `else if`: `num = -3`  `if num > 0:` `    print(num, "is positive")` `elif num == 0:` `    print(num, "is zero")` `else:` `    print(num, "is negative")` Note the usage of the `==` to compare whether a value is equal to another, rather than assigning a value.
-	4. Challenge question 5.1
-	4. We can also use `and` or `or` to meet multiple conditions: `if (1 > 0) and (-1 > 0):` `    print('both parts are true')` `else:` `    print('one part is not true')` versus `if (1 < 0) or (-1 < 0):` `    print('at least one test is true')`
-	5. Checking out the inflammation data
-		1. Checking for suspicious maxima: `if data.max(axis=0)[0] == 0 and data.max(axis=0)[20] == 20:` `    print('Suspicious looking maxima!')`
-		2. Checking for healthy individuals: `elif data.min(axis=0).sum() == 0:` `    print('Minima add up to zero!')`
-		3. Make note if the data look OK. `else:` `    print('Seems OK!')`
-		4. Challenge question 5.2
+Conditional statements can change the code behaviour based on meeting certain conditions.
+
+1. Let's take a simple example.
+
+    ```python
+    >>> num = 37
+    >>> if num > 100:
+    ...     print('greater')
+    ... else:
+    ...     print('not greater')
+    ...
+    not greater
+    ```
+What did we do here? First, we used the `if` and `else` statements to determine what parts of the code to execute. Note that both lines containing `if` or `else` end with a `:` and the text beneath is indented. What do these tests do? The `if` test checks to see whether the variable value for `num` is greater than 100. If so, 'greater' would be written to the screen. Since 37 is smaller than 100, the code beneath the `else` is executed. The `else` statement code will run whenever the `if` test is false.
+
+2. The combination of `if` and `else` is very common, but both are not strictly required.
+
+    ```python
+    >>> num = 53
+    >>> if num > 100:
+    ...     print('53 is greater than 100')
+    ...
+    >>>
+    ```
+Note that here we use only the `if` statement, and because 53 is not greater than 100, nothing is printed to the screen.
+
+3. We can also have a second test for an `if` statment by using the `elif` (else-if) statement.
+
+    ```python
+    >>> num = -3
+    >>> if num > 0:
+    ...     print(num, 'is positive')
+    ... elif num == 0:
+    ...     print(num, 'is zero')
+    ... else:
+    ...     print(num, 'is negative')
+    ...
+    num is negative
+    ```
+Makes sense, right? Note here that we use the `==` to test if a value is equal to another. The complete list of these comparison operators is given in the table below.
+
+    | Operator | Meaning                  |
+    | -------- | ------------------------ |
+    | `<`      | Less than                |
+    | `<=`     | Less than or equal to    |
+    | `==`     | Equal to                 |
+    | `>=`     | Greater than or equal to |
+    | `>`      | Greater than             |
+    | `!=`     | Not equal to             |
+
+4. We can also use `and` and `or` to have multiple conditions.
+
+    ```python
+    >>> if (1 > 0) and (-1 > 0):
+    ...     print('Both parts are true')
+    ... else:
+    ...     print('One part is not true')
+    ...
+    One part is not true
+    >>> if (1 < 0) or (-1 < 0):
+    ...     print('At least one test is true')
+    ...
+    At least one test is true
+    ```
+This can be quite handy.
 
 ## Other ways to read files (*Optional*)
 
