@@ -73,7 +73,7 @@ Note here that the `...` is displayed in the IPython window when entering code i
     for variable in collection:
         do things with variable
     ```
-The `variable` can be any name you like, and the statement of the `for` loop must end with a ':'. The code that should be executed as part of the loop must be indented beneath the `for` loop, and the typical indentation is 4 spaces. There is not additional special word needed to end the loop, just change the indentation back to normal.
+The `variable` can be any name you like, and the statement of the `for` loop must end with a `:`. The code that should be executed as part of the loop must be indented beneath the `for` loop, and the typical indentation is 4 spaces. There is not additional special word needed to end the loop, just change the indentation back to normal.
 4. Let's consider another example.
 
     ```python
@@ -82,6 +82,7 @@ The `variable` can be any name you like, and the statement of the `for` loop mus
     ...    length = length + 1
     ...
     >>> print('There are', length, 'letters')
+    There are 10 letters
     ```
 Can you follow what happens in this loop?
 5. Note that the variable used in the loop, `letter` in the case above is just a normal variable and still exists after the loop has completed with the final value given to letter.
