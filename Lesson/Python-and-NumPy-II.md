@@ -21,6 +21,7 @@ Now we are ready to start.
 
 ## `for` loops
 Loops allow parts of code to be repeated over some number of times.
+
 1. Let's consider an example. Suppose we want to take a word and print out each letter of the word separately. We could do the following:
 
     ```python
@@ -34,9 +35,7 @@ Loops allow parts of code to be repeated over some number of times.
     >>> print(word[3])
     k
     ```
-But this is a bad idea. Why? Well there are two reasons:
-  1. It does not scale nicely for long strings, and will take forever to type in.
-  2. It won't work if the word is not 4 characters long.
+But this is a bad idea. Why? Well there are two reasons. First, it does not scale nicely for long strings, and will take forever to type in. Second, it won't work if the word is not 4 characters long.
 
     ```python
     >>> word = 'ore'
@@ -54,6 +53,7 @@ But this is a bad idea. Why? Well there are two reasons:
 
     IndexError: string index out of range
     ```
+
 2. We could do a much better job by using a `for` loop.
 
     ```python
