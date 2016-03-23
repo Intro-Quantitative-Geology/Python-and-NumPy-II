@@ -2,11 +2,10 @@
 Part II of an introduction to Python and NumPy.
 
 ## Tutorial components
-0. [Logging into GitHub (reminder)](Lesson/GitHub.md)
-1. [Installing Anaconda (if it failed last week)](Lesson/Anaconda.md)
-2. [Downloading the lesson data](Lesson/Data.md)
+1. [Logging into GitHub (reminder)](Lesson/GitHub.md)
+2. [Installing Anaconda (if it failed last week)](Lesson/Anaconda.md)
 3. [Introduction to Python and NumPy, part II](Lesson/Python-and-NumPy-II.md)
-4. [Laboratory exercise 2](Exercise-2.md)
+4. [Laboratory exercise 2](https://classroom.github.com/assignment-invitations/e668a86564ac81ebcc326370238728f1)
 
 ## Resources
 - Web pages
