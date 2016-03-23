@@ -171,7 +171,7 @@ Note that here we use only the `if` statement, and because 53 is not greater tha
     ... else:
     ...     print(num, 'is negative')
     ...
-    num is negative
+    -3 is negative
     ```
 Makes sense, right? Note here that we use the `==` to test if a value is equal to another. The complete list of these comparison operators is given in the table below.
 
