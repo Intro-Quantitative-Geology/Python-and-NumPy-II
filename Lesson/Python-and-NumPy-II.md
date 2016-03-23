@@ -5,13 +5,15 @@ This tutorial is based on a combination of [a MATLAB tutorial from Prof. Todd Eh
 
 ## Getting started
 1. Since [Anaconda may be installing in the background](Anaconda.md), you should open a second Terminal window by clicking on the Dash Home icon at the top left corner of the screen, typing `terminal` into the search box, and clicking on the Terminal icon. Alternatively, you can right click on the existing Terminal icon and select **New Terminal**.
-2. I assume you have also already [downloaded and extracted the lesson data](Data.md), so you can navigate to the `Data` directory to start this lesson.
+2. We can start by making a folder to store files for this week's exercises.
 
     ```bash
-    $ cd ~/Desktop/Lab-2/Data
+    $ cd Desktop
+    $ mkdir Lab-2
+    $ cd Lab-2
     ```
 **Reminder**: the `$` symbol above represents the command prompt in the Terminal window.
-3. Open a new IPython window.
+3. Now you can open a new IPython window.
 
     ```bash
     ipython
