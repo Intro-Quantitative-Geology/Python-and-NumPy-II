@@ -185,6 +185,5 @@ Makes sense, right? Note here that we use the `==` to test if a value is equal t
     ```
 This can be quite handy.
 
-## Other ways to read files (*Optional*)
-
-## Github basics
+## Laboratory Exercise 2
+For Laboratory Exercise 2 we will be using Classroom for Github, which will create a private repository containing the exercise and starter code in your personal Github space. When you are ready to do this, you can [create the repository for Laboratory Exercise 2](https://classroom.github.com/assignment-invitations/e668a86564ac81ebcc326370238728f1).
