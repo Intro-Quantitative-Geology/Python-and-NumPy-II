@@ -6,6 +6,7 @@ Part II of an introduction to Python and NumPy.
 2. [Installing Anaconda (if it failed last week)](Lesson/Anaconda.md)
 3. [Introduction to Python and NumPy, part II](Lesson/Python-and-NumPy-II.md)
 4. [Laboratory exercise 2](https://classroom.github.com/assignment-invitations/e668a86564ac81ebcc326370238728f1)
+5. [Helpful tips for completing the exercises with Classroom for Github](Lesson/Classroom.md)
 
 ## Resources
 - Web pages
